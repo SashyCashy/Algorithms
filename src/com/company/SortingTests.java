@@ -25,4 +25,11 @@ public class SortingTests {
         Assert.assertArrayEquals(expectedResult, result);
     }
 
+
+    @Test
+    public void insertionSortTest() {
+        int[] result = bubbleSort.sort();
+        Assert.assertArrayEquals(expectedResult, result);
+    }
+
 }
